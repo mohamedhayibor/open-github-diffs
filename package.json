@@ -1,0 +1,39 @@
+{
+  "name": "open-github-diffs",
+  "version": "0.0.0",
+  "description": "This module will open multiple tabs of the most recent commits diffs on any project on Github.",
+  "main": "cli.js",
+  "bin": {
+    "df": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified or needed at the moment :) \" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedhayibor/open-github-diffs.git"
+  },
+  "keywords": [
+    "productivity",
+    "tabs",
+    "open",
+    "diffs",
+    "changes",
+    "commits",
+    "commit",
+    "github",
+    "multiple",
+    "fast"
+  ],
+  "author": "Mohamed Hayibor <mohamedhayibor@gmail.com> (github.com/mohamedhayibor)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohamedhayibor/open-github-diffs/issues"
+  },
+  "homepage": "https://github.com/mohamedhayibor/open-github-diffs#readme",
+  "dependencies": {
+    "git-shas": "^1.0.0",
+    "meow": "^3.7.0",
+    "open": "0.0.5"
+  }
+}
