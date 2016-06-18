@@ -14,7 +14,7 @@ This module will open multiple tabs of the most recent commits diffs on any proj
 On your terminal:
 ```sh
   > git fetch (or git pull)
-  > df `n. of tabs` `owner`/`repoName`
+  > df `n. of tabs` `owner/repoName`
 ```
 # Demo
 ![](http://g.recordit.co/D8ITkomdnq.gif)
