@@ -21,7 +21,7 @@ On your terminal:
 
 #### Api
 
-No api to mess with. Enter the command `dif` <n. of tabs> <`owner`/`repoName`> the github-name and number of tabs (most recent to oldest) and get instant results.
+No api to mess with. Enter the command and get instant results (most recent to oldest commit diffs).
 
 > If you are on Chrome the newest to oldest commits will go from left tor right.
 
