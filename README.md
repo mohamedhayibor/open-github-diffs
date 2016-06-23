@@ -1,4 +1,4 @@
-# open-github-diffs
+# open-github-diffs ![](https://img.shields.io/badge/status-stable-green.svg)
 
 This module will open multiple tabs of the most recent commits diffs on any project on Github. :sunglasses:
 
