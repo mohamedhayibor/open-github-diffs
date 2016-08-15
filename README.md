@@ -16,6 +16,13 @@ On your terminal:
   > git pull
   > df `n. of tabs` `owner/repoName`
 ```
+
+Example:
+```
+  // navigate to where you cloned nightmare then
+  > df 10 segmentio/nightmare
+```
+
 # Demo
 ![](http://g.recordit.co/D8ITkomdnq.gif)
 
