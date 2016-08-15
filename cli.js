@@ -15,10 +15,11 @@ const cli = meow(`
 });
 
 let input = cli.input;
+
 let numberOfTabs = Number(input[0]);
 let repoPath = input[1];
 
-if ( numberOfTabs < 0 || repoPath.length < 2) {
+if ( numberOfTabs < 0 || !repoPath || repoPath.length < 2 ) {
   throw new Error(`
     You probably forgot to include the number of tabs first.
     Then the 'owner'/'reponame'

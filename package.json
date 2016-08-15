@@ -1,7 +1,7 @@
 {
   "name": "open-github-diffs",
-  "version": "1.0.0",
-  "description": "This module will open multiple tabs of the most recent commits diffs on any project on Github.",
+  "version": "1.0.1",
+  "description": "This module will open multiple tabs of the most recent commits diffs on any projects on Github.",
   "main": "cli.js",
   "bin": {
     "df": "cli.js"
