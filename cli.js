@@ -6,7 +6,10 @@ const open = require('open');
 const gitShas = require('git-shas');
 
 const cli = meow(`
-  df <owner/reposName> <n. of tabs>: Opens the most recent diffs on your browser
+  To open the most recent diffs on your browser
+  diffs <n. of tabs> <owner/repoName>
+
+  Exple: $ diffs 10 tj/co
 `, {
   alias: {
     'v': 'version',
@@ -23,7 +26,7 @@ if ( numberOfTabs < 0 || !repoPath || repoPath.length < 2 ) {
   throw new Error(`
     You probably forgot to include the number of tabs first.
     Then the 'owner'/'reponame'
-    example: $ df 10 segmentio/nightmare
+    example: $ diffs 10 segmentio/nightmare
     `);
 }
 

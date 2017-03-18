@@ -1,6 +1,9 @@
 # open-github-diffs ![](https://img.shields.io/badge/status-stable-green.svg)
 
-This module will open multiple tabs of the most recent commits diffs on any project on Github. :sunglasses:
+This command line module will open multiple tabs of the most recent commits diffs of any project on Github. :sunglasses:
+
+# Demo
+![](http://g.recordit.co/D8ITkomdnq.gif)
 
 ## Installation
 ```sh
@@ -12,33 +15,31 @@ This module will open multiple tabs of the most recent commits diffs on any proj
 ## Usage
 
 On your terminal:
+
 ```sh
-  > git pull
-  > df `n. of tabs` `owner/repoName`
+  > diffs `n. of tabs` `owner/repoName`
 ```
+
+> Bonus: if you want to start out from a particular commit, just check that one out.
 
 Example:
 ```
   // navigate to where you cloned nightmare then
-  > df 10 segmentio/nightmare
+  > diffs 10 tj/co
+  > git checkout 2203ee50656
+  > diffs 10 tj/co
 ```
 
-# Demo
-![](http://g.recordit.co/D8ITkomdnq.gif)
 
-#### Api
+#### Restrictions
 
-No api to mess with. Enter the command and get instant results (most recent to oldest commit diffs).
-
-> If you are on Chrome the newest to oldest commits will go from left tor right.
-
-There is no limit to the number of tabs you could try to open. The recommended range is [1...30] but feel free to go for as many as your computer and browser can handle :sunglasses:.
+You have to be in the repo's directory (cd..)
 
 > Please keep your browser open before running the command.
 
 ### Raison D'etre
 
-I learn a lot by cloning repos but sometimes I just want to know what are the most recent changes on them by going through Github commit diffs "Don't we just love them :blush:". This package does that (hopefully super well). You get an idea of what is going on a project instantly. Don't waste anymore time clicking around manually on commit histories and let's keep on learning from each other.
+Don't waste anymore time clicking around manually on commit histories on Github.
 
 ## License
 MIT © [Mohamed Hayibor](http://github.com/mohamedhayibor)
