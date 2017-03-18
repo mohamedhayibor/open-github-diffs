@@ -10,7 +10,7 @@ This command line module will open multiple tabs of the most recent commits diff
   > npm install -g open-github-diffs
 ```
 
-> Don't forget the "-g" to install it globally. (then you can run the `df` command anywhere)
+> Don't forget the "-g" to install it globally. (then you can run the `diffs` command anywhere)
 
 ## Usage
 
