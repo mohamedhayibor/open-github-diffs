@@ -50,6 +50,10 @@ git-shas:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/git-shas/-/git-shas-1.0.0.tgz#95464ffcbf1a454ac30ea671925e5e5883c3eade"
 
+github-url-from-git:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/github-url-from-git/-/github-url-from-git-1.5.0.tgz#f985fedcc0a9aa579dc88d7aff068d55cc6251a0"
+
 graceful-fs@^4.1.2:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"

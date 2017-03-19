@@ -17,17 +17,18 @@ This command line module will open multiple tabs of the most recent commits diff
 On your terminal:
 
 ```sh
-  > diffs `n. of tabs` `owner/repoName`
+  > diffs 7
+  > diffs                      (opens 10 diffs by default)
 ```
 
 > Bonus: if you want to start out from a particular commit, just check that one out.
 
 Example:
 ```
-  // navigate to where you cloned nightmare then
-  > diffs 10 tj/co
+  // navigate to where you cloned the repo
+  > diffs 7
   > git checkout 2203ee50656
-  > diffs 10 tj/co
+  > diffs
 ```
 
 
