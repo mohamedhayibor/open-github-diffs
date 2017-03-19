@@ -27,6 +27,8 @@ Example:
 ```
   // navigate to where you cloned the repo
   > diffs 7
+
+  // checkout any shas and open tabs from there
   > git checkout 2203ee50656
   > diffs
 ```
