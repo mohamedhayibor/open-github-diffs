@@ -3,7 +3,7 @@
 This command line module will open multiple tabs of the most recent commits diffs of any project on Github. :sunglasses:
 
 # Demo
-![](http://g.recordit.co/D8ITkomdnq.gif)
+![](http://g.recordit.co/gAws7SWd0x.gif)
 
 ## Installation
 ```sh
